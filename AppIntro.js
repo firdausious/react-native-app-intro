@@ -94,7 +94,6 @@ const defaultStyles = {
   nextButtonText: {
     fontSize: 25,
     fontWeight: 'bold',
-    fontFamily: 'Arial',
   },
   doneButtonText: {
     fontSize: 25,
