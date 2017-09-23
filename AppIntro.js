@@ -96,6 +96,10 @@ const defaultStyles = {
     fontWeight: 'bold',
     fontFamily: 'Arial',
   },
+  doneButtonText: {
+    fontSize: 25,
+    fontWeight: 'bold',
+  },
   full: {
     height: 80,
     width: 100,

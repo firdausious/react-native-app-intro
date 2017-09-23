@@ -18,7 +18,7 @@ export const DoneButton = ({
       >
         <Text
           allowFontScaling={allowFontScaling}
-          style={[styles.nextButtonText, { color: rightTextColor, fontSize }]}
+          style={[styles.nextButtonText, styles.doneButtonText , { color: rightTextColor, fontSize }]}
         >
           {isDoneBtnShow ? doneBtnLabel : nextBtnLabel}
         </Text>

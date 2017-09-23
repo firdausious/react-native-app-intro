@@ -28,8 +28,8 @@ export const DoneButton = ({
         <View style={styles.full}>
           <Text
             allowFontScaling={allowFontScaling}
-            style={[styles.controllText, {
-              color: rightTextColor, paddingRight: 30, fontSize
+            style={[styles.controllText, styles.doneButtonText, {
+              color: rightTextColor, fontSize
             }]}
           >
             {doneBtnLabel}
