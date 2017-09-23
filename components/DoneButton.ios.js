@@ -29,7 +29,9 @@ export const DoneButton = ({
           <Text
             allowFontScaling={allowFontScaling}
             style={[styles.controllText, styles.doneButtonText, {
-              color: rightTextColor, fontSize
+              color: rightTextColor,
+              fontSize,
+              marginRight: 65
             }]}
           >
             {doneBtnLabel}
@@ -41,7 +43,11 @@ export const DoneButton = ({
           onPress={ isDoneBtnShow ? onDoneBtnClick : onNextBtnClick}>
           <Text
             allowFontScaling={allowFontScaling}
-            style={[styles.nextButtonText, { color: rightTextColor, fontSize }]}
+            style={[styles.nextButtonText, {
+              color: rightTextColor,
+              fontSize,
+              marginRight: 65
+            }]}
           >
             {nextBtnLabel}
           </Text>
